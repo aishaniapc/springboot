@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "d06a98b1-d60f-4959-9024-af4bb8bc0e5b",
+		"name": "testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19107455"
+	},
+	"item": [
+		{
+			"name": "save",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n     \r\n        \"name\":\"Ritesh\",   \r\n        \"phone\":8019271171,   \r\n        \"email\":\"rondlaritesh@gmail.com\",\r\n        \"dob\":\"22051991\",   \r\n        \"aadhar\":\"987455613212\",   \r\n        \"pan\":\"EAB87872D\",\r\n        \"location\":\"hyderabad\",   \r\n        \"internType\":\"WFO\"\r\n\r\n\r\n}  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}save",
+					"host": [
+						"{{url}}save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getall",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getbyPV",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getbyparam",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
